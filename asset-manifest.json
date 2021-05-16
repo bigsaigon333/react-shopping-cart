@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.js": "/react-shopping-cart/static/js/main.144a4bba.chunk.js",
-    "main.js.map": "/react-shopping-cart/static/js/main.144a4bba.chunk.js.map",
+    "main.js": "/react-shopping-cart/static/js/main.51735c38.chunk.js",
+    "main.js.map": "/react-shopping-cart/static/js/main.51735c38.chunk.js.map",
     "runtime-main.js": "/react-shopping-cart/static/js/runtime-main.1b57ae7e.js",
     "runtime-main.js.map": "/react-shopping-cart/static/js/runtime-main.1b57ae7e.js.map",
-    "static/js/2.f24360b2.chunk.js": "/react-shopping-cart/static/js/2.f24360b2.chunk.js",
-    "static/js/2.f24360b2.chunk.js.map": "/react-shopping-cart/static/js/2.f24360b2.chunk.js.map",
+    "static/js/2.5c5d2522.chunk.js": "/react-shopping-cart/static/js/2.5c5d2522.chunk.js",
+    "static/js/2.5c5d2522.chunk.js.map": "/react-shopping-cart/static/js/2.5c5d2522.chunk.js.map",
     "index.html": "/react-shopping-cart/index.html",
-    "static/js/2.f24360b2.chunk.js.LICENSE.txt": "/react-shopping-cart/static/js/2.f24360b2.chunk.js.LICENSE.txt"
+    "static/js/2.5c5d2522.chunk.js.LICENSE.txt": "/react-shopping-cart/static/js/2.5c5d2522.chunk.js.LICENSE.txt",
+    "static/media/no_cart_item.7561af64.png": "/react-shopping-cart/static/media/no_cart_item.7561af64.png",
+    "static/media/order_now.b6c231e3.jpg": "/react-shopping-cart/static/media/order_now.b6c231e3.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1b57ae7e.js",
-    "static/js/2.f24360b2.chunk.js",
-    "static/js/main.144a4bba.chunk.js"
+    "static/js/2.5c5d2522.chunk.js",
+    "static/js/main.51735c38.chunk.js"
   ]
 }

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="인치동동의 배민상회" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <title>인치동동의 배민상회</title>
+
+    <script type="text/javascript">
+      (() => {
+        const {
+          protocol,
+          hostname,
+          port,
+          pathname,
+          search,
+          hash,
+        } = window.location;
+
+        const [, repoName, ...rest] = pathname.split("/");
+        const routes = rest.join("/").replace(/&/g, "~and~");
+
+        const portNumber = port ? `:${port}` : "";
+        const searchParams = search
+          ? `&${search.slice(1).replace(/&/g, "~and~")}`
+          : "";
+
+        const url = `${protocol}//${hostname}${portNumber}/${repoName}/?/${routes}${searchParams}${hash}`;
+
+        window.location.replace(url);
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
